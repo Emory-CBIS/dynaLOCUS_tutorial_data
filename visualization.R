@@ -1,4 +1,7 @@
 # Libraries
+library(ggplot2)
+library(ggthemes)
+library(gridExtra)
 library(lattice)
 
 # node mode (each node's mode, in total 264 nodes)

@@ -2,7 +2,7 @@
 library(lattice)
 
 # node mode (each node's mode, in total 264 nodes)
-load(url("https://www.dropbox.com/scl/fi/31mmnl0o7lt1449ak1osj/node.mode.RData?rlkey=8nl761ehe5u8ctojcv3rw41qe&dl=1"))
+load(url("https://raw.githubusercontent.com/Emory-CBIS/dynaLOCUS_tutorial_data/main/node.mode.RData"))
 modID = data.frame(id = 0:10, modname = c("Other","med vis","op vis","lat vis","DMN","CB","SM","Aud","EC","FPR","FPL"))
 # Note: UC stands for 'uncertain'
 
